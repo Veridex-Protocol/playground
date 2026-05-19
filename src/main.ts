@@ -23,7 +23,10 @@ import { parseEther } from 'ethers';
 import { renderTrace, log, resetUI } from './trace-view';
 import { policy } from './policies';
 
-const sdk = createSDK('base', { network: 'testnet' });
+const sdk = createSDK('base', {
+  network: 'testnet',
+  relayerUrl: 'https://relayer.veridex.network',
+});
 
 const $register = document.querySelector<HTMLButtonElement>('#btn-register')!;
 const $session = document.querySelector<HTMLButtonElement>('#btn-session')!;
