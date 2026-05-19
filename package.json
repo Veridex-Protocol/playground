@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@veridex/sdk": "^1.1.1",
+    "@veridex/sdk": "^1.1.5",
     "ethers": "^6.13.0"
   },
   "devDependencies": {
